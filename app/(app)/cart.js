@@ -106,7 +106,7 @@ export default function Cart() {
       <Text style={styles.additionalInfo}>
         *Shipping charges, taxes, and discount codes are calculated at the time of checkout.
       </Text>
-      <Text> Total price is {totalPrice}</Text>
+      <Text style={{fontSize:25}}>Total price is {totalPrice}</Text>
       <TouchableOpacity style={styles.buyButton}>
         <Text style={styles.buyButtonText}>Buy</Text>
       </TouchableOpacity>
